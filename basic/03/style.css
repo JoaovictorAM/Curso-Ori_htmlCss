@@ -9,8 +9,9 @@ h2{
 }
 .conteiner{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: auto auto;
 	gap: 20px;
+	place-content: start;
 }
 .item{
 	display: grid;
